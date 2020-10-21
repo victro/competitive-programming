@@ -1,5 +1,5 @@
 // remove the following line to get it accepted
-package com.uva;
+package com.uva.P11172;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -58,8 +58,7 @@ public class P11172 {
         FastReader in = new FastReader();
         Integer testCases = in.nextInt();
         for (Integer i = 0; i < testCases; i += 1) {
-            Integer n1 = in.nextInt();
-            Integer n2 = in.nextInt();
+            Integer n1 = in.nextInt(), n2 = in.nextInt();
             System.out.println(Solver.solve(n1, n2));
         }
     }
